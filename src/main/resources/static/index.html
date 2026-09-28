@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Live Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🏏 Cricket Live Score</h1>
+    <p>Real-Time Cricket Score Management System</p>
+</header>
+
+<main>
+
+    <section id="match-card" class="card">
+        <div class="match-header">
+            <span id="status">LIVE</span>
+            <span id="venue"></span>
+        </div>
+
+        <h2 id="teams">Loading...</h2>
+
+        <div class="score">
+            <span id="runs">0</span>/<span id="wickets">0</span>
+        </div>
+
+        <p id="overs">0 overs</p>
+
+        <div class="players">
+
+            <div class="player">
+                <h3>🏏 Batsman</h3>
+                <p id="batsman">-</p>
+            </div>
+
+            <div class="player">
+                <h3>⚾ Bowler</h3>
+                <p id="bowler">-</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Match Events</h2>
+        <div id="events">
+            Loading events...
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    Cricket Score Management System | Spring Boot + MySQL
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
